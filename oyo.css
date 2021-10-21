@@ -1,0 +1,319 @@
+
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 70px; 
+    display: flex;
+    align-items: center ;
+    justify-content: flex-end;  
+    
+}
+.hed{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.reglar{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+}
+.logo img{
+    position: absolute;
+    float: left;
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+    top: -16px;
+    left: 44px;
+}
+.promocard1{
+    width: 181px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+.promocard p{
+    margin: 0;
+}
+.promocard2{
+    width: 154px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+.promocard1 p{
+    margin: 0;
+}
+.promocard3{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    margin-right: -120px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+.promocard2 p{
+    margin: 0;
+}
+.svg5 img{
+    width: 24px;
+    height: 24px;
+}
+.login{
+    margin-right:25px ;
+}
+.svg5{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.svg4{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.svg3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.svg2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.svg1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.svg4 svg{
+    width: auto;
+    height: 9px; 
+    color: #222;
+}
+
+.svg3 svg{
+    width: auto;
+    height: 27px; 
+    color: #222;
+    
+}
+.svg2 svg{
+    width: auto;
+    height: 27px; 
+    color: #222;
+}
+.svg1 svg{
+    width: auto;
+    height: 27px; 
+    color: #222;
+}
+.place{
+    height: 42px;
+    background-color:#f3f5f7;
+    border-bottom-color: rgba(0, 0, 0, 0.05) ;
+    margin: 0px;
+    
+}
+.place ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transform: translateY(61%);
+ 
+}
+.place ul li{
+    list-style-type :none;
+}
+.place a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+.searchcontainer{
+    width: 100%;
+    height: 182px;
+    background-image: linear-gradient(130deg, rgb(209, 20, 80), rgb(223, 41, 58)) ;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.tag{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    margin-left: 251px;
+    
+}
+.search1 {
+    width: 387px;
+    height: 58px;
+    border: none;
+    margin: -1px;
+    margin-left: 175px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+}
+.search2{
+    width: 224px;
+    height: 58px;
+    border-top: none;
+    border-bottom: none;
+    border-left: rgb(143, 143, 143) 1px;
+    
+    margin: -5px;
+
+}
+.search3{
+    width: 224px;
+    height: 58px;
+    border-top: none;
+    border-bottom: none;
+    border-left: rgb(143, 143, 143) 1px;
+    margin: -1px;
+
+}
+.searchcontainer button{
+    width: 165px;
+    height: 60px;
+    background-color: #1ab64f;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin: -5px;
+}
+.searchcontainer button:hover{
+    background-color: #006421;
+}
+.img1 img{
+    width: 1206px;
+    height: auto;
+}
+.img2 img{
+    width: 1206px;
+    height: auto;
+}
+.img2{
+    margin-top: 71px;
+}
+.sec1{
+    padding-top: 15px;
+    width: 100%;
+    height: 94px;
+    background-color: #6d787d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+.logo2 img{
+    width: 93px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+.sec1 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+.sec1 button{
+    width: 170px;
+    height: 48px;
+    background-color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-right: 27px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #6f787c;
+    display: inline-block;
+}
+.sec1 button svg{
+    width: 29px;
+    height: auto;
+     margin-right: 10px; 
+}
+.sec2{
+    width: 100%;
+    height: 306;
+    background-color: #6d787d;
+    display: flex;
+    flex-direction: row;
+
+}
+.sec2 div{
+    margin-left: 79px;
+    margin-top: 29px;
+}
+.sec2 ul:first-child,.sec2 ul:last-child{
+    border-left: 1px solid white;
+}
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.aboutus ul{
+    padding: 0 5rem;
+    list-style: none;
+
+}
+.aboutus ul li{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: white;
+    line-height: 3rem;
+}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #6d787d;
+    
+
+}
+.sec3 ul li{
+    line-height: 25px;
+    font-weight: 600;   
+    
+}
+.sec3 ul{
+    
+    list-style: none;
+    
+
+}
+.sec3 ul a{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.lastsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6d787d;
+}
+.lastsec p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
